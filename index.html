@@ -57,6 +57,44 @@
           			<h4>What is that Web Developer talking about?</h4>
 				</section>
 
+		<!-- Announcements -->
+				<section>
+					<h3>Upcoming GDI Orlando Events</h3>
+					<br>
+					<ul>
+						<li>
+							<h5>GDI: Code and Tea @ Infusion Tea</h5>
+							<p>Sunday, November 5, 2017</p>
+							<p>11:00 AM to 2:00 PM</p>
+							<p>@ Infusion Tea</p>
+							<br>
+						</li>
+						<li>
+							<h5>Introduction to HTML</h5>
+							<p>Saturday, November 11, 2017</p>
+							<p>1:00 PM to 3:00 PM</p>
+							<p>@ The Melrose Center</p>
+							<br>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Meet your Instructor & TAs</h3>
+					<ul>
+						<li>
+							<strong>Instructor:</strong> Cassandra Wilcox
+						</li>
+						<li>
+							<strong>TA:</strong> Casey Faist
+						</li>
+						<li>
+							<strong>TA:</strong> Morgan Gonzalez
+						</li>
+					</ul>
+				</section>
+
+
         <!-- Intro Slides-->
 		        <section>
 		          <h2>Welcome!</h2>
@@ -115,15 +153,15 @@
 			<!-- How does the Internet Work -->
 	        <section>
 	          <h2>What is the world wide web?</h2>
-	          <img class="fragment" src="images/client-server.png" alt="" />
+	          <img class="fragment" src="images/the-interwebz.jpg" alt="" style="max-width:100%;"/>
 	        </section>
 
 			<section>
 				<section>
 					<h3>How does the web work?</h3>
 					<p>Let's take a tour! A typical web site will live or is "hosted" on a web server. Web servers are often large computers connected to a network.</p>
-					<img src="images/server-small.jpg" alt="Server with three ethernet cables" />
-					<p><small>Photo credit <a href="http://www.flickr.com/photos/7409674@N07/435133113">computerroom085</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
+					<img src="https://www.ebuyer.com/blog/wp-content/uploads/2015/11/server_farm.jpg" alt="Server with three ethernet cables" />
+					<p><small>Photo credit <a href="https://www.ebuyer.com/blog/wp-content/uploads/2015/11/server_farm.jpg">ebuyer.com blog</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
 					<aside class="notes">
 						<p>Next slides are step-by-step process.</p>
 					</aside>
@@ -169,8 +207,7 @@
 				<section>
 					<h3>Step 5: The server sends your computer the files</h3>
 					<p>This is usually an HTML page, with some CSS, JavaScript, or media files.</p>
-					<img src="images/mailbox.jpg" alt="Mailbox" />
-					<p><small>Photo credit <a href="http://www.flickr.com/photos/53326337@N00/4384851676">Envelope</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a></small></p>
+					<a href="images/network-requests.png"><img src="images/network-requests.png" alt="Network Requests" /></a>
 					<aside class="notes">
 						<p>Each files comes a separate request</p>
 						<p>Requests are packaged into packets</p>
@@ -180,8 +217,7 @@
 				<section>
 					<h3>Step 6: Your browser displays the page</h3>
 					<p>Your browser interprets the code and assembles all the files into a page you can see and use. Each browser does this slightly differently.</p>
-					<img src="images/hello.jpg" alt="Hello in many languages" />
-					<p><small>Photo credit <a href="http://www.flickr.com/photos/27439865@N05/3977313856">Hola</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">cc</a></small></p>
+					<iframe src="https://www.meetup.com/preview/Girl-Develop-It-Orlando/events/243506086?success=event_updated" frameborder="1" height="500px" width="800px"></iframe>
 					<aside class="notes">
 						<p>Browser also runs JavaScript</p>
 					</aside>
@@ -200,7 +236,7 @@
 							<li class="fragment">Clients make requests, servers fulfill them</li>
 						</ul>
 		          	<br><br>
-		          	<p class="fragment"><small>Remember <a href="index.html#/6">this</a>?</small></p>
+		          	<!--<p class="fragment"><small>Remember <a href="index.html#/6">this</a>?</small></p>-->
 	            </section>
 
         	<section>
@@ -261,7 +297,7 @@
 
         	</section>
 
-
+			<section>
 				<section>
 					<h3>Let's Try It!</h3>
 					<p>The simplest type of request you can send is a "ping." It asks the server "are you there?"</p>
@@ -280,6 +316,10 @@
 						</ul>
 					</aside>
 				</section>
+				<section>
+					<iframe width="1120" height="530" src="https://www.youtube.com/embed/7O398Ubx-Gs" frameborder="0" allowfullscreen></iframe>
+				</section>
+			</section>
 
 		        <section>
 		          	<h3>Browsers (Client Side)</h3>
@@ -332,7 +372,7 @@
 							<li>PHP</li>
 							<li>Perl</li>
 							<li>Python</li>
-							<li>Also Javascript. (It's complicated)</li>
+							<li>Also JavaScript.</li>
 							<li>.NET</li>
 							<li>Java</li>
 							<li>ColdFusion</li>
@@ -582,7 +622,7 @@
         <section>
           <h3>Hello world</h3>
           <p>Python</p>
-<pre><code class="python">'Hello, world!'
+<pre><code class="python">print('Hello, world!')
 </code></pre>
           <p>Ruby</p>
 <pre><code class="ruby">puts 'Hello, world!'
@@ -592,8 +632,8 @@
         <section>
           <h3>Hello world</h3>
           <p>JavaScript</p>
-          <p><small>Not server-side, but just for example</small></p>
-<pre><code class="js">document.writeln('Hello, World!');
+          <p><small>Client side AND Server side</small></p>
+<pre><code class="js">console.log('Hello, World!');
 </code></pre>
 		        </section>
 		      </section>
