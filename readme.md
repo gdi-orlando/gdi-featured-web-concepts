@@ -1,6 +1,8 @@
+[Click Here to View the GDI Orlando Class Slides](https://gdi-orlando.github.io/gdi-featured-web-concepts/#/)
+
 # GDI Core Intro to Web Concepts
 
-This is the official Girl Develop It Core Intro Web Concepts course. Material was originally developed by Matt Torbin and Elise Wei, and modified by Sylvia Pellicore & Becky Blank.
+This is GDI Orlando's fork of the official Girl Develop It Core Intro Web Concepts course. Material was originally developed by Matt Torbin and Elise Wei, and modified by Sylvia Pellicore & Becky Blank.
 
 The course is meant to be taught in a single two-hour workshop.
 
@@ -24,6 +26,6 @@ Who does what on a typical web development team?
 
 This class is for people with little to no technical experience.
 
-##Tech Requirements
+## Tech Requirements
  - A laptop computer is helpful, but not required, to take this course.  
 
