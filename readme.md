@@ -1,5 +1,7 @@
 [Click Here to View the GDI Orlando Class Slides](https://gdi-orlando.github.io/gdi-featured-web-concepts/#/)
 
+To view Presenter Mode, press the `s` key while viewing slides.
+
 # GDI Core Intro to Web Concepts
 
 This is GDI Orlando's fork of the official Girl Develop It Core Intro Web Concepts course. Material was originally developed by Matt Torbin and Elise Wei, and modified by Sylvia Pellicore & Becky Blank.
